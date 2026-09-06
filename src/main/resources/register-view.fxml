@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.marketplace1.RegisterController">
+    <children>
+        <Label layoutX="215.0" layoutY="22.0" style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Create your account" />
+
+        <TextField fx:id="nameField" layoutX="170.0" layoutY="75.0" promptText="Full Name" prefWidth="260.0" />
+        <TextField fx:id="studentIdField" layoutX="170.0" layoutY="120.0" promptText="Student ID" prefWidth="260.0" />
+        <TextField fx:id="emailField" layoutX="170.0" layoutY="165.0" promptText="Email address (name@example.com)" prefWidth="260.0" />
+        <TextField fx:id="confirmEmailField" layoutX="170.0" layoutY="205.0" promptText="Confirm email address" prefWidth="260.0" />
+        <PasswordField fx:id="passwordField" layoutX="170.0" layoutY="250.0" promptText="Create password" prefWidth="260.0" />
+        <Label layoutX="172.0" layoutY="285.0" prefWidth="260.0" text="10+ chars; uppercase, lowercase, number, symbol; no spaces" wrapText="true" style="-fx-font-size: 10px; -fx-text-fill: #64748b;" />
+        <PasswordField fx:id="confirmPasswordField" layoutX="170.0" layoutY="325.0" promptText="Confirm password" prefWidth="260.0" />
+        <TextField fx:id="roleField" layoutX="170.0" layoutY="370.0" text="Student" editable="false" prefWidth="260.0" />
+
+        <Button layoutX="170.0" layoutY="425.0" mnemonicParsing="false" onAction="#handleRegister" prefWidth="260.0" text="Register Now" />
+    </children>
+</AnchorPane>

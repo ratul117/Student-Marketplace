@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.marketplace1.DashboardController">
+    <children>
+        <Label fx:id="welcomeLabel" layoutX="30.0" layoutY="30.0" style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Welcome to Marketplace Dashboard!" />
+
+        <Button layoutX="30.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleViewProducts" prefWidth="150.0" text="View Products" />
+        <Button layoutX="30.0" layoutY="150.0" mnemonicParsing="false" onAction="#handleAddProduct" prefWidth="150.0" text="Add New Product" />
+        <Button layoutX="30.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleLogout" prefWidth="150.0" text="Logout" />
+    </children>
+</AnchorPane>
